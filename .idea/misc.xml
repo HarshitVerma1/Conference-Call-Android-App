@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GITHUB/conferenceium/Conference-Call-Android-App/app/src/main/res/drawable/login_btn_style.xml" value="0.25833333333333336" />
+        <entry key="..\:/GITHUB/conferenceium/Conference-Call-Android-App/app/src/main/res/drawable/signup_btn_style.xml" value="0.25833333333333336" />
+        <entry key="..\:/GITHUB/conferenceium/Conference-Call-Android-App/app/src/main/res/drawable/text_box_style.xml" value="0.25833333333333336" />
+        <entry key="..\:/GITHUB/conferenceium/Conference-Call-Android-App/app/src/main/res/layout/activity_login.xml" value="0.25677083333333334" />
         <entry key="..\:/GITHUB/conferenceium/Conference-Call-Android-App/app/src/main/res/layout/activity_main.xml" value="0.264" />
       </map>
     </option>

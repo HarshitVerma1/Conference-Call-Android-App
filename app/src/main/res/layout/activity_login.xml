@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="false"
+    tools:context=".LoginActivity">
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Back!"
+        android:textSize="60dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/email_edt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:layout_marginTop="80dp"
+        android:textSize="20sp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/text_box_style"
+
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/password_edt"
+        android:hint="Password"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        app:endIconMode="password_toggle"
+        android:maxLines="1"
+        app:passwordToggleEnabled="true"
+        android:background="@drawable/text_box_style"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="false"
+        android:orientation="horizontal">
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:id="@+id/login_btn"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#4CAF50"
+            android:layout_marginRight="10dp"
+            android:text="Login"
+            android:layout_weight="1"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            android:gravity="start|center"
+            android:textColor="#fff"
+            app:cornerRadius="50dp"
+            app:icon="@drawable/ic_baseline_login_24" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:id="@+id/signup_btn"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:backgroundTint="#2196F3"
+            android:gravity="start|center"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_marginLeft="10dp"
+            android:text="Signup"
+            android:textColor="#fff"
+            app:cornerRadius="50dp"
+            app:icon="@drawable/signup" />
+    </LinearLayout>
+
+</LinearLayout>
