@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "807378386893",
+    "project_id": "my-video-calling-app-a4791",
+    "storage_bucket": "my-video-calling-app-a4791.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807378386893:android:f961ba5bf65ccfaabb8e84",
+        "android_client_info": {
+          "package_name": "com.androharshit.conferenceium"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807378386893-18ifbotugolf3cdbq85g3mnj8guk77b3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1Tt1picNHLORKxoDFtYHNaH16wevuAWc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807378386893-18ifbotugolf3cdbq85g3mnj8guk77b3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807378386893:android:181129b2725cd6b4bb8e84",
+        "android_client_info": {
+          "package_name": "com.androharshit.conference"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807378386893-18ifbotugolf3cdbq85g3mnj8guk77b3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1Tt1picNHLORKxoDFtYHNaH16wevuAWc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807378386893-18ifbotugolf3cdbq85g3mnj8guk77b3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
