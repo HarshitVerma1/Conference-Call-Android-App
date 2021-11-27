@@ -96,7 +96,7 @@ friends to start video call or enter the code of the room you want to join."
     </androidx.cardview.widget.CardView>
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/demoBtn"
+        android:id="@+id/LogOutButton"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_gravity="center"
@@ -104,7 +104,7 @@ friends to start video call or enter the code of the room you want to join."
         android:backgroundTint="#F32121"
         android:gravity="center"
         android:paddingLeft="10dp"
-        android:text="LogOut"
+        android:text="Exit/Close"
         android:textColor="#fff"
         android:textSize="16sp"
         app:cornerRadius="50dp"

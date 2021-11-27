@@ -19,13 +19,13 @@ public class SplashActivity extends AppCompatActivity {
         Thread thread = new Thread(){
             public void run(){
                 try {
-                    sleep(4000);
+                    sleep(2000);
                 }
                 catch(Exception e){
                     e.printStackTrace();
                 }
                 finally{
-                    Intent intent = new Intent(SplashActivity.this,LoginActivity.class);
+                    Intent intent = new Intent(SplashActivity.this,MainActivity.class);
                     startActivity(intent);
                     finish();
                 }
