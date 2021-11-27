@@ -21,7 +21,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 public class SignupActivity extends AppCompatActivity {
-    FirebaseAuth auth;
+    private FirebaseAuth auth;
     EditText emailBox, passwordBox , namebox,mobileNumber,confirmPasswd;
     Button loginBtn, signupBtn;
 
@@ -52,6 +52,7 @@ public class SignupActivity extends AppCompatActivity {
         signupBtn.setOnClickListener(v -> {
             registerUser();
         });
+
 
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -160,14 +161,15 @@ public class SignupActivity extends AppCompatActivity {
                             .document().set(user).addOnSuccessListener(new OnSuccessListener<Void>() {
                         @Override
                         public void onSuccess(Void aVoid) {
-                            finish();
-                            Intent intent=new Intent(getApplicationContext(),LoginActivity.class);
-                            startActivity(intent);
+
                         }
                     });
+                    startActivity(new Intent(SignupActivity.this, LoginActivity.class));
                     Toast.makeText(SignupActivity.this, "Account is Created", Toast.LENGTH_SHORT).show();
+                    finish();
                 } else {
-                    Toast.makeText(SignupActivity.this, task.getException().getLocalizedMessage(), Toast.LENGTH_SHORT).show();
+                    showErrorBox(task.getException().getLocalizedMessage());
+//                    Toast.makeText(SignupActivity.this, task.getException().getLocalizedMessage(), Toast.LENGTH_SHORT).show();
                 }
             }
         });
