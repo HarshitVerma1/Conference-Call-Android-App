@@ -10,12 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.androharshit.conference.SignupActivity"
-            android:exported="true" />
-        <activity
-            android:name="com.androharshit.conference.LoginActivity"
-            android:exported="true" />
-        <activity
             android:name="com.androharshit.conference.MainActivity"
             android:exported="true" />
         <activity android:name="com.androharshit.conference.SplashActivity">

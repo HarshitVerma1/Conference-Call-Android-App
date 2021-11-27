@@ -7,8 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
-import com.google.firebase.auth.FirebaseAuth;
 
 import org.jitsi.meet.sdk.JitsiMeetActivity;
 import org.jitsi.meet.sdk.JitsiMeetConferenceOptions;
@@ -18,17 +18,16 @@ import java.net.URL;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button  demoBtn,shareBtn;
+    Button back_Button,shareBtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         getSupportActionBar().hide();
-        demoBtn= (Button) findViewById(R.id.demoBtn);
-        demoBtn.setOnClickListener(v1 -> {
-            FirebaseAuth.getInstance().signOut();
-            startActivity(new Intent(MainActivity.this , LoginActivity.class));
-            finish();
+        this.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        back_Button = (Button) findViewById(R.id.LogOutButton);
+        back_Button.setOnClickListener(v1 -> {
+            destroye_it();
         });
         try {
             JitsiMeetConferenceOptions options = new JitsiMeetConferenceOptions.Builder()
@@ -67,6 +66,10 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    private void destroye_it() {
+        finish();
+    }
+
 
     public void onButtonClick(View v) {
         EditText editText = findViewById(R.id.codeBox);
@@ -87,4 +90,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Toast.makeText(this, "App Closed!", Toast.LENGTH_SHORT).show();
+    }
 }
