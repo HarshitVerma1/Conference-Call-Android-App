@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Conferenceium</string>
+    <string name="invalid_password">Your password is too short "Or" Confirm_Password is not matching.</string>
+    <string name="invalid_share_text">First write/generate your "CODE" in RoomCode(whatever you want) then you will be able to share.</string>
+    <string name="invalid_pass">Your password is too short !!</string>
+    <string name="invalid_user_name_length">Your UserName is too short !!</string>
+    <string name="invalid_mobile">Your Entered mobile number is invalid!</string>
+    <string name="incorrect_password">Your password is not correct.</string>
+    <string name="invalid_Email">Your email is invalid.</string>
+</resources>
