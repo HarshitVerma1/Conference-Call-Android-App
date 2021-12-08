@@ -1,62 +1,33 @@
 {
   "project_info": {
-    "project_number": "807378386893",
-    "project_id": "my-video-calling-app-a4791",
-    "storage_bucket": "my-video-calling-app-a4791.appspot.com"
+    "project_number": "439935947525",
+    "project_id": "videocallingapp-c310e",
+    "storage_bucket": "videocallingapp-c310e.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:807378386893:android:f961ba5bf65ccfaabb8e84",
+        "mobilesdk_app_id": "1:439935947525:android:54dbf9a67af4de4130dd6c",
         "android_client_info": {
           "package_name": "com.androharshit.conference"
         }
       },
       "oauth_client": [
         {
-          "client_id": "807378386893-18ifbotugolf3cdbq85g3mnj8guk77b3.apps.googleusercontent.com",
+          "client_id": "439935947525-f7gafnd1achuugmq7941i5abh56802bi.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC1Tt1picNHLORKxoDFtYHNaH16wevuAWc"
+          "current_key": "AIzaSyBRPI-1UL5Cg6_hWhreizjV5cE9EXXe2IU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "807378386893-18ifbotugolf3cdbq85g3mnj8guk77b3.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:807378386893:android:181129b2725cd6b4bb8e84",
-        "android_client_info": {
-          "package_name": "com.smartcookie.videoCall"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "807378386893-18ifbotugolf3cdbq85g3mnj8guk77b3.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyC1Tt1picNHLORKxoDFtYHNaH16wevuAWc"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "807378386893-18ifbotugolf3cdbq85g3mnj8guk77b3.apps.googleusercontent.com",
+              "client_id": "439935947525-f7gafnd1achuugmq7941i5abh56802bi.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
